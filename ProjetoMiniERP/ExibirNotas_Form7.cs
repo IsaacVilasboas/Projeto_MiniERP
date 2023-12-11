@@ -38,7 +38,7 @@ namespace ProjetoMiniERP
                     // Recuperar todas as notas do banco de dados
                     List<Nota> listaNotas = contexto.Notas.ToList();
 
-                    // Limpar o DataGridView
+                   
                     dataGridView1.Rows.Clear();
 
                     // Preencher o DataGridView com as notas
