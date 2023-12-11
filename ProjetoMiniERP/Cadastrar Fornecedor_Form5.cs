@@ -52,7 +52,7 @@ namespace ProjetoMiniERP
 
                 foreach (var f in forn)
                 {
-
+                    //Adicionando as informações do fornecedor ao dataGridView
                     dataGridView1.Rows.Add(
                         f.Id,
                        f.Nome,
