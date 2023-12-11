@@ -57,7 +57,7 @@ namespace ProjetoMiniERP
                 dataGridView1.Rows.Clear();
                 foreach (var n in list)
                 {
-
+                     //Adicionando as informações do cliente ao dataGridView
                     dataGridView1.Rows.Add(
                         n.Id,
                        n.Nome,
