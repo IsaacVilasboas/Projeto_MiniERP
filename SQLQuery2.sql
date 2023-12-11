@@ -26,7 +26,7 @@ create table notas
 (
 	id integer primary key identity,
 	Nome_Cliente varchar (50),
-	Nome_Produto varchar,
+	Nome_Produto varchar (50),
 	preco integer,
 	fk_produtos integer,
 	fk_clientes integer,
