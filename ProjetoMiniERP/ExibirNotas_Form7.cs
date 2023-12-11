@@ -41,10 +41,10 @@ namespace ProjetoMiniERP
                    
                     dataGridView1.Rows.Clear();
 
-                    // Preencher o DataGridView com as notas
+                  
                     foreach (var nota in listaNotas)
                     {
-                        // Adicionar uma nova linha ao DataGridView com os dados da nota
+                         //Adicionando as informações das notas ao dataGridView
                         dataGridView1.Rows.Add(
                             nota.FkClientes,
                             nota.Nome_Cliente,
