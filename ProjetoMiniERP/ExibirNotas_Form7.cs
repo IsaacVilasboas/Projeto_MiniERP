@@ -82,7 +82,7 @@ namespace ProjetoMiniERP
                         var document = new Document(pdfDocumento);
 
 
-                        // Criar uma tabela
+                        
                         Table tabela = new Table(new float[] { 15, 40, 40, 10 }).UseAllAvailableWidth();
 
                         // Adicionar títulos das colunas à tabela
@@ -100,7 +100,7 @@ namespace ProjetoMiniERP
                             tabela.AddCell(new Cell().Add(new Paragraph(nota.preco?.ToString() ?? "")));
                         }
 
-                        // Adicionando tabela ao documento
+                      
                         document.Add(tabela);
 
                         document.Close();
