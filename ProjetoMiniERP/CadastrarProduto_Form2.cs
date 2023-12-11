@@ -69,7 +69,7 @@ namespace ProjetoMiniERP
 
                 foreach (var n in pf)
                 {
-                    //Adicionando os valores do produto ao dataGriddView
+                     //Adicionando as informações do produto ao dataGridView
                     dataGridView1.Rows.Add(
                     
                        n.NomeProduto,
